@@ -1,6 +1,6 @@
-# Contributing to CLI Tools Guide
+# Contributing to Awesome CLI Tools & Apps
 
-Thank you for taking the time to contribute! This guide is a community resource and every improvement makes it more valuable for everyone.
+Thank you for taking the time to contribute! This is a **mega repository** bringing together **700+ command-line tools** from multiple curated sources ([awesome-shell](https://github.com/alebcay/awesome-shell), [awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps)) plus original contributions. This guide is a community resource and every improvement makes it more valuable for everyone.
 
 ---
 
@@ -113,18 +113,22 @@ Note the alignment markers:
 | Section | Belongs here if… |
 | --- | --- |
 | **Shell & Navigation** | Enhances the shell experience itself (prompt, history, navigation, env management) |
-| **File & Directory** | Replaces or extends `ls`, `cat`, `find`, `du`, `df`, or file managers |
+| **File & Directory Management** | Replaces or extends `ls`, `cat`, `find`, `du`, `df`, or file managers |
 | **Search & Text Processing** | Searches inside files, transforms structured data, inspects binary/log files |
-| **System Monitoring** | Monitors CPU, memory, disk, network, or processes |
-| **Network & Web** | Makes requests, scans networks, tests APIs, diagnoses connectivity |
-| **Downloaders & Media Grabbers** | Downloads video, audio, images, or galleries from online platforms |
-| **Media, Images & QR** | Processes images/video, renders visuals in-terminal, generates/reads QR codes |
-| **Terminal Music & Audio** | Plays music, visualizes audio, reads RSS/podcasts |
+| **System Monitoring & Performance** | Monitors CPU, memory, disk, network, or processes |
+| **Network & Web Tools** | Makes requests, scans networks, tests APIs, diagnoses connectivity |
+| **Downloaders & Media** | Downloads video, audio, images, or galleries from online platforms |
+| **Media Processing** | Processes images/video, renders visuals in-terminal, generates/reads QR codes |
+| **Terminal Music & Audio Players** | Plays music, visualizes audio, reads RSS/podcasts |
 | **Containers & Orchestration** | Manages Docker, Kubernetes, or other container runtimes |
-| **Git & Development** | Enhances git workflows, benchmarks, file watchers, compression, encryption |
+| **Git & Development Tools** | Enhances git workflows, benchmarks, file watchers, compression, encryption |
+| **Text Editors** | Terminal-based text editors (vim, emacs, nano alternatives) |
 | **Productivity & Tasks** | Task management, journaling, note-taking, dashboards, presentations |
+| **Databases & Data** | Database clients, query tools, data management utilities |
+| **Security & Privacy** | Security scanning, encryption, password management, privacy tools |
 | **Terminal Multiplexers** | Adds sessions, split panes, and window management inside any terminal |
 | **Fun & Miscellaneous** | ASCII art, animations, eye candy, novelties |
+| **Command Line Learning** | Interactive tutorials, cheat sheets, and CLI learning resources |
 
 If unsure, suggest a section in your PR description and the maintainer will decide.
 

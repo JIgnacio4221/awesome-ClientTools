@@ -44,3 +44,27 @@ This is a human-readable summary of (and not a substitute for) the license.
 
 For the canonical license text, visit:  
 **https://creativecommons.org/licenses/by/4.0/**
+
+---
+
+## Source Material Acknowledgments
+
+This mega repository integrates content from multiple sources:
+
+### awesome-shell (CC0-1.0)
+
+Original source: [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)  
+License: CC0-1.0 (Public Domain Dedication)  
+**The author of awesome-shell has dedicated this work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.**
+
+### awesome-cli-apps (CC0 1.0 Universal)
+
+Original source: [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps)  
+License: CC0 1.0 Universal (Public Domain Dedication)  
+**The author of awesome-cli-apps has dedicated this work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.**
+
+### This Compilation
+
+**This compilation** of CLI tools (including descriptions, organization, and additional content) is licensed under **CC BY 4.0** as described above. While the source materials are in the public domain, this curated and expanded work requires attribution when redistributed.
+
+**To attribute this work**, please include a link to this repository: `https://github.com/JIgnacio4221/awesome-ClientTools`
