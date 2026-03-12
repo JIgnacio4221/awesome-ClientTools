@@ -19,12 +19,14 @@
 - [System Monitoring & Performance](#system-monitoring--performance)
 - [Network & Web Tools](#network--web-tools)
 - [Downloaders & Media](#downloaders--media)
+- [Books & E-books](#books--e-books)
 - [Media Processing](#media-processing)
 - [Terminal Music & Audio Players](#terminal-music--audio-players)
 - [Containers & Orchestration](#containers--orchestration)
 - [Git & Development Tools](#git--development-tools)
 - [Text Editors](#text-editors)
 - [Productivity & Tasks](#productivity--tasks)
+- [Research & Science](#research--science)
 - [Databases & Data](#databases--data)
 - [Security & Privacy](#security--privacy)
 - [Terminal Multiplexers](#terminal-multiplexers)
@@ -257,6 +259,22 @@ Tools for downloading videos, music, and content from the internet from multiple
 
 ---
 
+## Books & E-books
+
+Download, manage, read, and convert e-books from the terminal.
+
+| Name | Summary | Description | OS | Repository | Latest Version | License | Open Source |
+|------|---------|-------------|:--:|------------|:--------------:|---------|:-----------:|
+| [calibre](https://calibre-ebook.com/) | Complete e-book management suite with powerful CLI | The definitive e-book toolkit. CLI includes `ebook-convert` (100+ format conversions: EPUB, MOBI, AZW3, PDF, FB2…), `calibredb` (manage your library from scripts), and `fetch-ebook-metadata` (auto-fill metadata). | All | [kovidgoyal/calibre](https://github.com/kovidgoyal/calibre) | ![GitHub Release](https://img.shields.io/github/v/release/kovidgoyal/calibre?label=) | GPL-3.0 | ✅ |
+| [libgen-cli](https://github.com/ciehanski/libgen-cli) | Search and download books from Library Genesis | Search LibGen's catalog by title, author, or ISBN and download EPUB/PDF directly. Supports fiction, non-fiction, and scientific articles. | All | [ciehanski/libgen-cli](https://github.com/ciehanski/libgen-cli) | — | MIT | ✅ |
+| [monolith](https://github.com/Y2Z/monolith) | Save complete web pages as a single offline HTML file | Embeds all CSS, images, fonts, and scripts into one self-contained file. Perfect for archiving articles and documentation for offline reading. | All | [Y2Z/monolith](https://github.com/Y2Z/monolith) | ![GitHub Release](https://img.shields.io/github/v/release/Y2Z/monolith?label=) | CC0-1.0 | ✅ |
+| [readability-cli](https://gitlab.com/gardenappl/readability-cli) | Extract clean, clutter-free text from any URL | Uses Mozilla's Readability algorithm (same as Firefox Reader View) to strip ads, nav, and clutter — outputs clean text, HTML, or Markdown. | All | [gardenappl/readability-cli](https://gitlab.com/gardenappl/readability-cli) | — | GPL-3.0 | ✅ |
+| [epy](https://github.com/wustho/epy) | Feature-rich terminal EPUB/e-book reader | Read EPUB, FB2, Mobi, and AZW3 in-terminal with chapter navigation, bookmarks, highlights, and inline images in supported terminals. | All | [wustho/epy](https://github.com/wustho/epy) | — | GPL-3.0 | ✅ |
+| [kepubify](https://pgaskin.net/kepubify/) | Bulk convert EPUB files to Kobo KEPUB format | Fast batch EPUB→KEPUB converter that can process entire libraries at once. Essential for Kobo e-reader users. | All | [pgaskin/kepubify](https://github.com/pgaskin/kepubify) | ![GitHub Release](https://img.shields.io/github/v/release/pgaskin/kepubify?label=) | MIT | ✅ |
+| [fb2converter](https://github.com/rupor-github/fb2converter) | Convert FB2 Russian e-book format to EPUB/MOBI | Full-featured FB2 converter popular in Russian and Eastern European digital book ecosystems. Handles embedded images, metadata, and footnotes. | All | [rupor-github/fb2converter](https://github.com/rupor-github/fb2converter) | — | GPL-3.0 | ✅ |
+
+---
+
 ## Media Processing
 
 Tools for processing images, videos, audio, QR codes, and other media.
@@ -391,6 +409,25 @@ Task management, note-taking, calendars, presentations, and productivity tools.
 | [ticker](https://github.com/achannarasappa/ticker) | Stock ticker | Terminal stock market ticker with live updates. | All | [achannarasappa/ticker](https://github.com/achannarasappa/ticker) | — | GPL-3.0 | ✅ |
 | [mdp](https://github.com/visit1985/mdp) | A markdown presentation tool | Present Markdown files as slides in the terminal. | All | [visit1985/mdp](https://github.com/visit1985/mdp) | — | GPL-3.0 | ✅ |
 | [gcalcli](https://github.com/insanum/gcalcli) | Google calendar client | Access and manage Google Calendar from terminal. | All | [insanum/gcalcli](https://github.com/insanum/gcalcli) | — | MIT | ✅ |
+
+---
+
+## Research & Science
+
+Paper managers, arXiv downloaders, reference tools, and scientific computing in the terminal.
+
+| Name | Summary | Description | OS | Repository | Latest Version | License | Open Source |
+|------|---------|-------------|:--:|------------|:--------------:|---------|:-----------:|
+| [papis](https://papis.readthedocs.io/) | Powerful CLI document and bibliography manager | The definitive terminal reference manager. Import papers by DOI or arXiv ID, organizes PDFs and BibTeX, searches your library, and exports citations. Highly extensible with plugins. | All | [papis/papis](https://github.com/papis/papis) | ![GitHub Release](https://img.shields.io/github/v/release/papis/papis?label=) | GPL-3.0 | ✅ |
+| [arxiv-downloader](https://github.com/braun-steven/arxiv-downloader) | Download papers from arXiv by ID or keyword | Fetch papers from arXiv.org by arXiv ID or keyword search. Automatically names files by author/year/title and handles batch downloads. | All | [braun-steven/arxiv-downloader](https://github.com/braun-steven/arxiv-downloader) | — | MIT | ✅ |
+| [doi2bib](https://github.com/bibcure/doi2bib) | Convert a DOI to a BibTeX citation in one command | Enter any DOI and get a properly formatted BibTeX entry. Eliminates the need to visit publisher sites to copy citations. | All | [bibcure/doi2bib](https://github.com/bibcure/doi2bib) | — | MIT | ✅ |
+| [betterbib](https://github.com/nschloe/betterbib) | Auto-improve BibTeX files from online databases | Completes and corrects BibTeX entries by querying CrossRef and other academic APIs. Catches wrong titles, missing fields, and formatting issues. | All | [nschloe/betterbib](https://github.com/nschloe/betterbib) | — | MIT | ✅ |
+| [cobib](https://gitlab.com/cobib/cobib) | Console-based bibliography manager | Alternative to papis with a TUI interface, vim-inspired keybindings, and full BibTeX/BibLaTeX support. Stores data as plain YAML. | All | [cobib/cobib](https://gitlab.com/cobib/cobib) | — | MIT | ✅ |
+| [papermill](https://papermill.readthedocs.io/) | Parameterize and execute Jupyter notebooks from CLI | Run notebooks with different input parameters from scripts or CI pipelines — the standard tool for reproducible research workflows. | All | [nteract/papermill](https://github.com/nteract/papermill) | ![GitHub Release](https://img.shields.io/github/v/release/nteract/papermill?label=) | BSD-3-Clause | ✅ |
+| [gnuplot](http://www.gnuplot.info/) | Portable command-line scientific plotting | Plot functions and data in 2D/3D, output to terminal, PNG, SVG, PDF, and more. Decades-old standard for scientific visualization. | All | [gnuplot/gnuplot](https://github.com/gnuplot/gnuplot) | — | gnuplot | ✅ |
+| [sc-im](https://github.com/andmarti1424/sc-im) | Spreadsheet calculator in the terminal | Vim-style ncurses spreadsheet with formulas, graphs, and CSV/Excel import. Ideal for quick data analysis without leaving the terminal. | Lin/mac | [andmarti1424/sc-im](https://github.com/andmarti1424/sc-im) | — | BSD-4-Clause | ✅ |
+| [units](https://www.gnu.org/software/units/) | Universal unit conversion from the command line | Convert between thousands of units (SI, imperial, historical, currencies). Essential for scientists and engineers. | Lin/mac | — | — | GPL-3.0 | ✅ |
+| [qalc](https://qalculate.github.io/) | Powerful multi-purpose calculator with unit support | Interactive calculator handling complex expressions, unit conversions, variables, and plotting. More powerful than `bc` for scientific use. | All | [Qalculate/libqalculate](https://github.com/Qalculate/libqalculate) | — | GPL-2.0 | ✅ |
 
 ---
 
