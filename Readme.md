@@ -239,6 +239,7 @@ Tools for HTTP testing, networking, file transfer, and web services.
 | [sshuttle](https://github.com/sshuttle/sshuttle) | Transparent proxy server that works as a poor man's VPN | VPN over SSH without configuration. | All | [sshuttle/sshuttle](https://github.com/sshuttle/sshuttle) | — | LGPL-2.1 | ✅ |
 | [transmission-cli](https://transmissionbt.com) | Torrent client for your command line | Command-line BitTorrent client. | All | [transmission/transmission](https://github.com/transmission/transmission) | — | GPL-2.0 | ✅ |
 | [webtorrent-cli](https://github.com/feross/webtorrent-cli) | Streaming torrent client | Stream torrents to your terminal or media player. | All | [webtorrent/webtorrent-cli](https://github.com/webtorrent/webtorrent-cli) | — | MIT | ✅ |
+| [Kilobat CLI](https://github.com/seifip/kilobat-cli) | Diagnose local Mac connectivity from the terminal | Reports per-app traffic, Wi-Fi and DNS measurements as JSON. A host check walks the local network, proxy, TCP and TLS layers to investigate failed connections. Requires macOS 14 or newer; some app-managed data needs the companion app. | mac | [seifip/kilobat-cli](https://github.com/seifip/kilobat-cli) | ![GitHub Release](https://img.shields.io/github/v/release/seifip/kilobat-cli?label=) | GPL-3.0-only | ✅ |
 
 ---
 
